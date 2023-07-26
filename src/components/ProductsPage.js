@@ -18,7 +18,7 @@ const ProductsPage = () => {
         if(event.target.checked){
             filteredArray = copyArray.filter(item => item.inStock);
         }
-        // else{filteredArray = copyArray.filter(item => item.name.includes(event.target.value));}
+        else{filteredArray = copyArray;}
         setProducts(filteredArray);
     }
     return (
