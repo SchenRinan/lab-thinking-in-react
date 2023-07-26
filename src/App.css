@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+table{
+  padding: 50px;
+  width: 500px;
+  margin: auto;
+}
+
+header{
+  margin: auto;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+h4{
+  margin: 0;
+}
+
+thead{
+  background-color: cadetblue;
+}
+
+th, td{
+  width: 250px;
+  border-bottom: 1px solid grey;
+  padding: 5px;
+}

@@ -1,12 +1,13 @@
-
-
 const SearchBar = props => {
 
     return ( 
         <header>
-            <input type="search" name="findProduct" id="" onChange={ props.searchItem } />
-            <input type="checkbox" name="inStock" id="" onChange={ props.ifAvailable }/>
-            <span>Only show products in stock</span>
+            <label htmlFor="searchfield">Search</label>
+            <input type="search" name="findProduct" id="searchfield" onChange={ props.searchItem } />
+            <div>
+                <input type="checkbox" name="inStock" id="" onChange={ props.ifAvailable }/>
+                <span>Only show products in stock</span>
+            </div>
         </header>
     );
 }
